@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
+import readline
 import operator
+#import tkinter
 
 operators = {
     '+':operator.add,
@@ -8,6 +10,7 @@ operators = {
     '*':operator.mul,
     '/':operator.truediv,
     '^':operator.pow,
+#    '%':operator.mod,
 }
 
 def calculate(string):
