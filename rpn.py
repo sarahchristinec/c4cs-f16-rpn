@@ -10,7 +10,7 @@ operators = {
     '*':operator.mul,
     '/':operator.truediv,
     '^':operator.pow,
-#    '%':operator.mod,
+    '%':operator.mod,
 }
 
 def calculate(string):
