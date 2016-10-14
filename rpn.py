@@ -55,7 +55,7 @@ def exp(*args):
         value1 = float(arg1.get())
         value2 = float(arg2.get())
 
-        result.set(value1 ^ value2) 
+        result.set(value1 ** value2) 
     except ValueError:
         pass
 
@@ -66,6 +66,7 @@ mainframe = ttk.Frame(root, padding="10 10 10 10")
 mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
 mainframe.columnconfigure(0, weight=1)
 mainframe.rowconfigure(0, weight=1)
+mainframe ['relief'] = 'raised'
 
 arg1 = StringVar()
 arg2 = StringVar()
