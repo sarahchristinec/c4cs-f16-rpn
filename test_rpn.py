@@ -19,6 +19,9 @@ class TestBasics(unittest.TestCase):
 	def test_exp(self):
 		result = rpn.calculate("2 5 ^")
 		self.assertEqual(32, result)
+	def test_mod(self):
+		result = rpn.calculate("9 4 %")
+		self.assertEqual(1, result)
 	def test_toomanythings(self):
 		with self.assertRaises(TypeError):
 			rpn.calculate("1 2 3 +")
