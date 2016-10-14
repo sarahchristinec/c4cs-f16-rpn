@@ -2,7 +2,7 @@
 
 import readline
 import operator
-#import tkinter
+import tkinter
 
 operators = {
     '+':operator.add,
