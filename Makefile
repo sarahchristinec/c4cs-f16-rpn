@@ -1,4 +1,4 @@
 test:
-	#python3 -m unittest
-	python3 rpn.py
+	python3 -m unittest
+#	python3 guicalc.py
 .PHONY: test
