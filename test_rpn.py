@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 import unittest
 
-import tkinter
-
 import rpn
 
 class TestBasics(unittest.TestCase):
