@@ -31,6 +31,7 @@ def calculate(string):
 def main():
     while True:
         calculate(input("rpn calc>"))
-
+    if false:
+        print("buffer code")
 if __name__ == '__main__':
     main()
